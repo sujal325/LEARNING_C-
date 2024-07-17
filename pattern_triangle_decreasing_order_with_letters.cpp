@@ -3,32 +3,33 @@ using namespace std;
 
 int main()
 {
-    int a, b, c, d;
+    int a, b, c, d, n;
     a = 1;
-    c = 0;
     cout << "square: ";
     cin >> b;
+    n = b - 1;
     while (a <= b)
     {
+        c = 0;
         d = 1;
         while (d <= a)
         {
-            char e = 'A' + c;
+            char e = 'A' + n + c;
             cout << e;
+            c += 1;
             d += 1;
         }
         cout << endl;
+        n -= 1;
         a += 1;
-        c += 1;
     }
 }
-// A
-// BB
-// CCC
-// DDDD
-// EEEEE
-// FFFFFF
-// GGGGGGG
-// HHHHHHHH
-// IIIIIIIII
-// JJJJJJJJJJ
+// I
+// HI
+// GHI
+// FGHI
+// EFGHI
+// DEFGHI
+// CDEFGHI
+// BCDEFGHI
+// ABCDEFGHI

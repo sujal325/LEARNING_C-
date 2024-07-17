@@ -16,19 +16,15 @@ int main()
             char e = 'A' + c;
             cout << e;
             d += 1;
+            c += 1;
         }
         cout << endl;
         a += 1;
-        c += 1;
     }
 }
 // A
-// BB
-// CCC
-// DDDD
-// EEEEE
-// FFFFFF
-// GGGGGGG
-// HHHHHHHH
-// IIIIIIIII
-// JJJJJJJJJJ
+// BC
+// DEF
+// GHIJ
+// KLMNO
+// PQRSTU
